@@ -70,6 +70,8 @@ header {
   text-align: center;
   background: #18BC9C;
   color: white;
+  background-image: url('./img/29-abstract.jpg');
+
 
 }
 header #maincontent {
@@ -420,8 +422,13 @@ fieldset[disabled] .btn-success.active {
   font-size: 20px;
   line-height: 45px;
 }
-
-img.img-responsive {
+#about-contact-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+img#profile-pic {
       border-radius: 175px;
 }
 .scroll-top {

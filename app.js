@@ -1,5 +1,6 @@
 const express = require('express')
-const favicon = require('favicon')
+// const favicon = require('favicon')
+// favicon.url('/public/img/profile.png');
 const app  = express();
 const PORT = (3000 )
 

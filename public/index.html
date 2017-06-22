@@ -72,7 +72,7 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/highres_171066442.jpeg" alt="">
+                    <img id="profile-pic" class="img-responsive" src="img/highres_171066442.jpeg" alt="">
                     <div class="intro-text">
                         <h1 class="name">Sean Hoar</h1>
                         <hr class="star-light">
@@ -94,7 +94,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="//clientkeeper.seanhoar.com" class="portfolio-link" data-toggle="modal">
+                    <a href="//clientkeeper.seanhoar.com" target="_blank" class="portfolio-link" data-toggle="modal">
                         <b>ClientKeeper Mobile Rolodex</b>
                         <div class="caption">
 
@@ -107,23 +107,27 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="//todolist.seanhoar.com" class="portfolio-link" data-toggle="todolist">
+                    <a href="//todolist.seanhoar.com" target="_blank" class="portfolio-link" data-toggle="todolist">
+                        TodoList
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/todolist.jpg" class="img-responsive" alt="Slice of cake">
+                        <img src="img/portfolio/todolist.jpg" target="_blank" class="img-responsive" alt="Slice of cake">
+                        A vanilla javascript app with bootstrap styling, using MongoDB for data storage.
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="https://fun-food-friends-kqxdmwbmti.now.sh/" target="_blank" class="portfolio-link" data-toggle="modal">
+Fun Food Friends
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
+                        <img src="img/portfolio/FunFoodFriends.jpg" class="img-responsive" alt="Circus tent">
+A Reactjs app using Firebase for realtime storage to keep track of who is bringing what with react and bootstrap cards.
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -171,15 +175,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>I am a versatile junior full-stack developer who is very strong in client communications and eliciting requirements, as well as a team player who not only knows his roles but the roles of the team, and is committed to having that team play together and achieve greatness!</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>While my preference is Node.js backends and ReactJS frontends, with MongoDB or other NOSQL Database stores, I am happy to work with other JS frameworks and loves learning new frameworks, methodologies, and languages.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <p><a id="about-contact-link" href="#contact">Contact me</a> if you'd like to setup an interview for the next magic project you want created for mobile and desktop web!</p>
                 </div>
             </div>
         </div>
@@ -246,27 +248,33 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <ul><h3>Locations</h3>
+                        <li><h5>Outside Washington, D.C.</h5>
+                            Fairfax Station, VA</li>
+                            <li><h5>South Florida</h5>
+                            Boynton Beach, FL</li>
+                        </ul>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="//facebook.com/seanhoar" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="//twitter.com/seanhoar" class="btn-social btn-outline" target="_blank"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="//linkedin.com/IN/seanhoar" class="btn-social btn-outline" target="_blank"><span class="sr-only">LinkedIn</span><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="//github.com/SHoar" class="btn-social btn-outline" target="_blank"><span class="sr-only">Github</span><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="//codepen.io/SHoar" class="btn-social btn-outline" target="_blank"><span class="sr-only">CodePen</span><i class="fa fa-fw fa-codepen"></i></a>
+                            </li>
+                            <li>
+                                <a href="//freecodecamp.com/SHoar" class="btn-social btn-outline" target="_blank"><span class="sr-only">FreeCodeCamp</span><i class="fa fa-fw fa-free-code-camp"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -281,7 +289,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Sean Hoar 2017
                     </div>
                 </div>
             </div>
