@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/SHoar/startbootstrap-freelancer.git"
   },
   "dependencies": {
     "express": "^4.15.3",
